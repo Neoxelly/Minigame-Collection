@@ -1,7 +1,6 @@
 #include <iostream>
-/*
-    Author: Danin Sadzak (@Neoxelly)
-*/
+
+// Author: Danin Sadzak (@Neoxelly)
 int main(){
     std::cout<<"************************************\n";
     std::cout<<"*   Danin's Minigame Collection!   *\n";
