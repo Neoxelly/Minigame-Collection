@@ -1,5 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
+#include "Minigames/numberGuessingGame.h"
+#include "numberGuessingGame.cpp"
 void selector(){
     system("CLS");
     std::cout<<"Choose the minigame you want to play!\n";
@@ -19,16 +21,4 @@ void selector(){
             numberGuessingGame();
             break;
     }
-}
-
-void numberGuessingGame(){
-    system("CLS");
-    int computerOrPlayer;
-    std::cout<<"***********************"<<'\n';
-    std::cout<<"*Number guessing game!*"<<'\n';
-    std::cout<<"***********************"<<'\n';
-    std::cout<<"Would you like to guess the number or would you like the computer to guess your number?\n";
-    std::cout<<"1. I want to guess the number!\n";
-    std::cout<<"2. I want the computer to guess my number!\n";
-    std::cin>>computerOrPlayer;
 }

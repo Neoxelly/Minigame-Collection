@@ -1,7 +1,7 @@
 #include <iostream>
 #include <conio.h>
-#include "Minigames/selectorandminigames.h"
-#include "selectorandminigames.cpp"
+#include "Minigames/selector.h"
+#include "selector.cpp"
 // Author: Danin Sadzak (@Neoxelly)
 int main(){
     std::cout<<"************************************\n";
