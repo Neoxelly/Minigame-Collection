@@ -3,7 +3,7 @@ Some short and simple minigames made to be played in the terminal while bored.
 
 Games in the program: 
 - Number guessing game
-- Rock Paper Scissors (WIP)
+- Rock Paper Scissors 
 - Tic-Tac-Toe (WIP)
 - Hangman (WIP)
 - Snake (WIP)
