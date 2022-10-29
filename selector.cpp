@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdlib.h>
-#include "numberGuessingGame.cpp"
+#include <windows.h>
+#include "Minigames/numberGuessingGame.h"
+#include "Minigames/rockPaperScissors.h"
 void selector(){
     system("CLS");
     std::cout<<"Choose the minigame you want to play!\n";
@@ -17,7 +19,12 @@ void selector(){
     std::cin>>chooseMinigame;
     switch(chooseMinigame){
         case 1:
+            Beep(200, 200);
             numberGuessingGame();
+            break;
+        case 2:
+            Beep(200, 200);
+            rockPaperScissors();
             break;
     }
 }
