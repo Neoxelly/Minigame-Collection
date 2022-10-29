@@ -1,6 +1,5 @@
 #include <iostream>
 #include <conio.h>
-#include "Minigames/selector.h"
 #include "selector.cpp"
 // Author: Danin Sadzak (@Neoxelly)
 int main(){

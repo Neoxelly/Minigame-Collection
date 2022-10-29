@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stdlib.h>
-#include "Minigames/numberGuessingGame.h"
 #include "numberGuessingGame.cpp"
 void selector(){
     system("CLS");
